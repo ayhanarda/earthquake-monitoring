@@ -1,6 +1,6 @@
 #!/bin/bash
-disk=`cat /usr/share/icingaweb2/public/deprem.txt`
-case $disk in
+deprem=`cat /usr/share/icingaweb2/public/deprem.txt`
+case $deprem in
 [0]*)
 echo "OK"
 exit 0
